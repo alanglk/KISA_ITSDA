@@ -19,3 +19,16 @@ The selected dataset is the [M5 Forecasting - Accuracy](https://www.kaggle.com/c
 - `sample_submission.csv` - The correct format for submissions. Reference the Evaluation tab for more info.
 - `sell_prices.csv` - Contains information about the price of the products sold per store and date.
 - `sales_train_evaluation.csv` - Includes sales [d_1 - d_1941] (labels used for the Public leaderboard)
+
+
+## Implementation
+Data structure
+```
+TSF/
+├── classical_tsm.py                # classical TS data models (ARIMA)
+├── common.py                       # Interfaces and shared functions
+├── dl_tsm.py                       # Deep-Learning models for TS data
+├── ml_transform.py                 # transform TS data and train tradition ML models 
+├── models                          # models saved checkpoints
+└── time_series_forecasting.ipynb
+```
