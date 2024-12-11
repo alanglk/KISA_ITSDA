@@ -1,0 +1,23 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/vscode/devcontainers/python",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.debugpy",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+	"runArgs": [
+		  "--net", "host", 
+		  "-e", "DISPLAY=${env:DISPLAY}",
+		  "-v", "/tmp/.X11-unix:/tmp/.X11-unix",
+		  "--gpus",
+		  "all"
+	],
+	"remoteUser": "vscode"
+}
