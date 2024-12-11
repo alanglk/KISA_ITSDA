@@ -2,4 +2,4 @@
 # inference with a deep-learning model
 #
 
-from common import TSInterface
+from utils import TSInterface

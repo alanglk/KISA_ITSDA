@@ -2,4 +2,4 @@
 # model for regression in order to forecast a Time Series
 #
 
-from common import TSInterface
+from utils import TSInterface

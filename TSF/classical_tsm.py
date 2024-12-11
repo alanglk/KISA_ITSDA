@@ -2,7 +2,7 @@
 #
 #
 
-from common import TSInterface
+from utils import TSInterface
 
 
 class TSClassicalModel(TSInterface):
