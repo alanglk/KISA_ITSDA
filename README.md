@@ -33,4 +33,7 @@ TSF/
 └── time_series_forecasting.ipynb
 ```
 
-[Transformers](https://huggingface.co/blog/time-series-transformers)
+[Huggin Face Transformers Blog](https://huggingface.co/blog/time-series-transformers)
+[Time Series Transformer Doc](https://huggingface.co/docs/transformers/model_doc/time_series_transformer)
+[Autoformer Doc](https://huggingface.co/docs/transformers/model_doc/autoformer)
+[GluonTS](https://github.com/awslabs/gluonts?tab=readme-ov-file)
