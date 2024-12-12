@@ -1,3 +1,12 @@
 ipykernel
 matplotlib
 pandas
+torch
+torchvision
+torchaudio
+lightning
+scipy
+gluonts[torch]
+transformers
+evaluate
+accelerate
